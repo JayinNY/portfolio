@@ -1,0 +1,194 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+background-color:black;
+}
+header{
+height:5em;
+background: #222;
+border-bottom:3px solid #FE19A6 ;
+}
+.topB{
+color:white;
+}
+
+header p{
+text-align:center;
+font-family: 'Monoton', cursive;
+padding-top:1em;
+font-size:1.4em;
+}
+.navbar-brand{
+font-family: 'Monoton', cursive;
+font-size:30px;
+padding-right:50px;
+color:aqua;
+}
+.navbar{
+background-color:black;
+font-family: 'Iceland', cursive;
+font-size:1.5em;
+border-bottom:2px solid white;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
+  line-height: 20px;
+  color:aquamarine;
+  padding-top:15px;
+  padding-right:60px;
+  padding-left:60px;
+  
+}
+.navbar-nav>li>a:hover{
+background-color:rgba(139,133,131,.4);
+} 
+.icon-bar{
+background-color:yellow;
+
+}
+
+h4{
+font-family: 'Monoton', cursive;
+font-size:2.8em;
+color:yellow;
+margin:50px;
+padding-bottom:10px;
+text-align:center;
+border-bottom:1px solid white;
+}
+
+h1{
+font-family: 'Monoton', cursive;
+color:#9200FF;
+font-size:4em;
+padding:0.6em;
+}
+
+h2{
+margin-top:1em;
+font-family: 'Iceland', cursive;
+color:#FE19A6;
+}
+
+.parag{
+font-family: 'Questrial', sans-serif;
+color:white;
+font-size:1.3em;
+margin-top:1.2em;
+margin-bottom:2em;
+
+}
+/*lineup page*/
+.artists h2{
+text-align:center;
+padding:10px;
+color:#9200FF;
+}
+
+
+/*tickets page*/
+
+.ticketT{
+color:#FE19A6;
+}
+.panel{
+background-color:gray;
+}
+.panel-heading{
+   font-family: 'Iceland', cursive;
+   font-size:2em;
+   color:red;
+}
+.panel-body{
+    font-family: 'Iceland', cursive;
+    font-size:1.3em;
+    color:white;
+}
+.form{
+color:white;
+}
+.radio .label{
+ color:white;
+
+}
+.benefit .explanation{
+    color:white;
+    font-size:1.2em;
+    line-height:2.3;
+}
+.exT{
+color:yellow;
+margin-top:50px;
+margin-bottom:30px;
+font-family: 'Iceland', cursive;
+font-size:2em;
+}
+
+/*photo page*/
+.photoT{
+    color:white;
+}
+.caption{
+font-family: 'Iceland', cursive;
+}
+.caption h3{
+margin-top:0;
+color:aquamarine;
+font-size:2em;
+}
+.caption p{
+color:white;
+font-size:1.2em;
+}
+.thumbnail{
+background-color:black;
+}
+.thumbnail img{
+border:1px solid white;
+}
+/*venue page*/
+.venueT{
+color:aquamarine;
+}
+h5{
+color:white;
+}
+
+.venP{
+color:white;
+font-family: 'Questrial', sans-serif;
+font-size:1.2em;
+
+}
+/*news page*/
+.newT{
+color:hotpink;
+}
+.newsroom h3{
+color:cyan;
+text-align:center;
+font-size:2.5em;
+}
+
+.newsroom p{
+font-size:1.21em;
+font-family: 'Questrial', sans-serif;
+}
+
+
+
+footer{
+border-top:2px solid aqua;
+}
+footer p {
+margin-top:4px;
+color:lightgray;
+text-align:center;
+font-family: 'Monoton', cursive;
+}
+footer .name{
+font-family:'Monoton', cursive;
+color:yellow;
+}
