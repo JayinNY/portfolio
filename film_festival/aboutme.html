@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<title>Who is Jay?</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/responsive-nav.css">
+<link rel="stylesheet" href="css/example.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+    
+<link href="css/style.css" rel="stylesheet" media="all">
+
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+<script src="js/responsive-nav.js"></script>
+    
+<style>
+   
+   #about {clear:both;}
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 5px;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color:black;
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color:red;
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+  <!-- End SlidesJS Optional-->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+    width:95%;
+    margin:auto;
+    }
+
+    <!--For tablets-->
+    @media (min-width:40em) {
+      .container {
+       width:90%;
+       margin:auto;
+      }
+    }
+   <!--For laptop -->
+    @media (min-width:70em) {
+      .container {
+        width:70%;
+        margin:auto;
+      }
+        .container img{
+        width:50%;
+        }
+    }
+  </style>    
+    
+    
+
+</head>
+
+<body>
+<div class="box">
+<div id="container">
+<header>
+
+<nav class="nav-collapse">
+                    <ul>
+                       <li><a href="index.html">Home</a></li>
+                        <li><a href="movie.html">Movies</a></li>
+                        <li><a href="directors.html">Directors</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="tickets.html">Tickets</a></li>
+                        <li><a href="maps.html">Maps</a></li>
+                        
+                    </ul>
+                </nav>
+</header>
+<section id="about">
+    
+    <img src="http://mmp.bmcc.cuny.edu/sanghwa.je/240/images/aboutlogo.jpg" alt="aboutme"/>
+
+    <div class="container">
+    
+    <div id="slides">
+      <img src="http://mmp.bmcc.cuny.edu/sanghwa.je/240/images/about1.jpg" alt="Photo by:Jay Link: http://mmp.bmcc.cuny.edu/sanghwa.je/index.html/">
+        
+      <img src="http://mmp.bmcc.cuny.edu/sanghwa.je/240/images/about2.jpg" alt="Photo by:Jay Link: http://mmp.bmcc.cuny.edu/sanghwa.je/index.html/">
+        
+      <img src="http://mmp.bmcc.cuny.edu/sanghwa.je/240/images/about3.jpg" alt="Photo by:Jay Link: http://mmp.bmcc.cuny.edu/sanghwa.je/index.html/">
+        
+      <img src="http://mmp.bmcc.cuny.edu/sanghwa.je/240/images/about4.jpg" alt="Photo by:Jay Link: http://mmp.bmcc.cuny.edu/sanghwa.je/index.html/">
+        
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+    </div>
+    
+    <img src="http://mmp.bmcc.cuny.edu/sanghwa.je/240/images/resume.png"alt="resume"/>
+        
+        
+  </div>
+    
+<!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: false
+      });
+    });
+  </script>
+
+    
+    </section>
+
+        </div>
+    
+    <footer><p class="footer">&#169;ALL RIGHTS <a href="aboutme.html">JAY</a> RESEREVED</p>
+    </footer>
+    
+    </div>
+    <script>
+        var navigation = responsiveNav(".nav-collapse", {
+            animate: true, // Boolean: Use CSS3 transitions, true or false
+            transition: 284, // Integer: Speed of the transition, in milliseconds
+            label: "Menu", // String: Label for the navigation toggle
+            insert: "after", // String: Insert the toggle before or after the navigation
+            customToggle: "", // Selector: Specify the ID of a custom toggle
+            closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+            openPos: "relative", // String: Position of the opened nav, relative or static
+            navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+            navActiveClass: "js-nav-active", // String: Class that is added to <html> element when nav is active
+            jsClass: "js", // String: 'JS enabled' class which is added to <html> element
+            init: function () {}, // Function: Init callback
+            open: function () {}, // Function: Open callback
+            close: function () {} // Function: Close callback
+        });
+    </script>
+
+</body>
+
+</html>
