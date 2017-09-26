@@ -1,0 +1,286 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+background-color:white;
+}
+header{
+height:5em;
+background:white;
+border-bottom:1px solid lightgray;
+}
+.topB{
+}
+
+header p{
+text-align:center;
+font-family: 'Julius Sans One', sans-serif;
+padding-top:1em;
+font-size:1.4em;
+}
+.navbar-brand{
+font-family: 'Julius Sans One', sans-serif;
+font-size:30px;
+padding-right:50px;
+color:#88F9D4;
+}
+.navbar{
+background-color:white;
+font-family: 'Julius Sans One', sans-serif;
+font-size:1.5em;
+border-bottom:1px solid lightgray;
+}
+.navbar-nav>li>a {
+  background-color:white;
+  padding-top: 10px;
+  line-height: 20px;
+  color:gray;
+  padding-top:15px;
+  padding-left:10px;
+  padding-right:10px;
+  text-align: center;
+}
+.navbar-nav>li>a:hover{
+color:white;
+}
+.icon-bar{
+background-color:black;
+
+}
+#mainT{
+  border-bottom:1px solid lightgray;
+  padding-bottom:1em;
+}
+#mainP h1{
+color:pink;
+font-family: 'Julius Sans One', sans-serif;
+}
+#mainP{
+  margin-bottom:4em;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.intro{
+  font-size:2em;
+  margin-bottom: 2em;
+  color:gray;
+}
+.Name{
+  color:black;
+  font-weight: 600;
+  font-size:1.3em;
+  letter-spacing: 1.5px;
+   border-bottom:3px solid #88F9D4;
+}
+#get:hover{
+ color:white;
+ background-color:lightgray;
+ text-decoration: none;
+}
+#resume:hover{
+ color:white;
+ background-color:lightgray;
+ text-decoration: none;
+}
+#get, #resume{
+  margin:5px;
+  padding:10px;
+  border: 1px solid lightgray;
+  color:black;
+  border-radius:10px;
+  float: right !important;
+}
+
+h1{
+font-family: 'Julius Sans One', sans-serif;
+color:blue;
+font-size:4em;
+padding:0.6em;
+}
+
+h2{
+margin-top:1em;
+font-family: 'Julius Sans One', sans-serif;
+color:#FE19A6;
+}
+/******* END INTRO **********/
+.project{
+  margin-left:.4em;
+  text-align:center;
+  padding:1em;
+  color:gray;
+  border-left:1px lightgray solid;
+  border-width:.3em;
+  font-size:2em;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight:bold;
+}
+.work1,.work2,.work3,.work4,.work5{
+  border-bottom:1px lightgray solid;
+  padding:3em;
+  text-decoration: none;
+}
+.work1 h3,.work2 h3,.work3 h3,.work4 h3,.work5 h3{
+  font-family: 'Julius Sans One', sans-serif;
+  color:black;
+}
+.work1:hover{
+  background-color:darkgray;
+}
+.work1 p:hover{
+  color:white;
+}
+.work1 h3:hover{
+  color:white;
+}
+.work2:hover{
+  background-color:gray;
+}
+.work2 p:hover{
+  color:pink;
+}
+.work3:hover{
+  background-color:pink;
+}
+.work3 p:hover{
+  color:white;
+}
+.work4:hover{
+  background-color:#88F9D4;
+}
+.work4 p:hover{
+  color:white;
+}
+.work5:hover{
+  background-color:gray;
+}
+.work5 p:hover{
+  color:#88F9D4;
+}
+.verticalText{
+  transform: rotate(270deg);
+	transform-origin :top left 0;
+  padding-top:3px;
+  font-family: 'Julius Sans One', sans-serif;
+  color:gray;
+}
+/*********** END WORKS *************/
+.skills{
+  border-bottom:1px lightgray solid;
+  padding:3em;
+}
+#star{
+padding-left:2em;
+}
+/************* END Expertise **********/
+.reference h5,.refName{
+  text-align:center;
+  font-family: 'Julius Sans One', sans-serif;
+  color:gray;
+}
+.reference {
+  padding: 3em 0;
+  line-height: 3;
+  border-bottom:1px solid lightgray;
+}
+.reference h5{
+  font-size:1.4em;
+}
+.refName{
+font-family: 'Josefin Slab', serif;
+font-style: italic;
+font-size:1.5em;
+color:black;
+font-weight: bold;
+}
+/************* END Reference **********/
+#sayHi{
+  padding:2em 0;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.sayHiTitle{
+  padding:1em;
+  font-size: 1.8em;
+  font-family: 'Poiret One', cursive;\
+  font-weight: bold;
+  color:#88F9D4;
+}
+#formName{
+  width:50%;
+  margin-bottom:.4em;
+}
+#formEmail{
+  width:70%;
+  margin-bottom:.4em;
+}
+#formMessage{
+}
+
+.btn-light{
+  background-color:lightgray;
+  border-radius:13px;
+  float: right !important;
+}
+.btn-light:hover{
+  background-color:pink;
+  color:white;
+}
+ .sayIcon img{
+ padding:.5em;
+}
+#myInfo{
+  padding-left: 5em;
+}
+
+/************* END SayHi *********/
+footer{
+border-top:1px solid lightgray;
+background-color:gray;
+}
+.follow img{
+  padding-top:2em;
+  margin:auto;
+}
+.quote{
+  font-family:impact;
+  font-size:1.6em;
+  padding:3em 0;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.thanks{
+  color:white;
+  font-family:;
+  padding-bottom:1em;
+}
+footer p {
+margin-top:4px;
+color:lightgray;
+text-align:center;
+font-family: 'Julius Sans One', sans-serif;
+}
+footer .name{
+font-family: 'Julius Sans One', sans-serif;
+color:pink;
+}
+
+@media (max-width: 320px) {
+  .work1,.work2,.work3,.work4,.work5{
+    text-decoration: none;
+  }
+  .btn-light:hover{
+    background-color:pink;
+    color:black;
+  }
+}
+/* Google Fonts
+<link href="https://fonts.googleapis.com/css?family=Anton|Cinzel|Josefin+Slab|Julius+Sans+One|Lobster+Two|Sacramento" rel="stylesheet">
+
+font-family: 'Josefin Slab', serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Shrikhand', cursive;
+*/
